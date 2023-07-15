@@ -4,11 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>zd</h1>
-      <h1>zd 2</h1>
-      <h1>zd 3</h1>
-      <h1>zd 4 test</h1>
-      <h1>zd 4 test igivea</h1>
+      <h1>test mast test master</h1>
     </div>
   );
 }
