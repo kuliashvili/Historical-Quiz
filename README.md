@@ -3,3 +3,4 @@ test pr
 test gh pages deploy master code
 
 deploy gh code master
+deploy gh code master
