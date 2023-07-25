@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 
-import './App.css';
+import Quiz from "./components/Quiz";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-<h1>georgian history quiz</h1>
-   
-
+      <h1>georgian history quiz</h1>
+      <Quiz />
     </div>
-
-    
   );
 }
 
