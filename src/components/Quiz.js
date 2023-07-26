@@ -6,13 +6,16 @@ export default function Quiz() {
     <div className='quiz'>
         <div className="question">
             <div className="question-header">romel wels moxda didgori</div>
-            <button className="question-answer-1">1121</button>
-            <button className="question-answer-2">1135</button>
-            <button className="question-answer-3">456</button>
-            <button className="question-answer-4">1907</button>
+            <div className="question-list">
+            <button className="quest answer-1">1121</button>
+            <button className="quest answer-2">1135</button>
+            <button className="quest answer-3">456</button>
+            <button className="quest answer-4">1907</button>
+            </div>
+            
         </div>
 
-        <button className='finish'>finish quiz</button>
+        <button className='finish'>next question</button>
     </div>
   )
 }
