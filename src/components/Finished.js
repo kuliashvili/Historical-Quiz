@@ -1,8 +1,10 @@
 import React from 'react'
-import "./finished.css"
+import "./Finished.css"
 
-export default function Finished() {
-  return (
-    <div>congranttt you finished quiz, your score is //ragac//</div>
-  )
+export default function Finished({ score, totalQuestions }) {
+    return (
+        <div className='Finished'>
+          <h1>Quiz finished. Your score: {score}/{totalQuestions}</h1>
+        </div>
+    )
 }

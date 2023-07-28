@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './Quiz.css';
+import Finished from './Finished';
 
 export default function Quiz() {
   const quizData = [
     {
       question: 'The Georgian national epic, "The Knight in the Panthers Skin," was written by:',
-      answers: ['Shota Rustaveli', ' Vazha-Pshavela', ' Ilia Chavchavadze', 'Nikoloz Baratashvili'],
+      answers: [ ' Vazha-Pshavela', ' Ilia Chavchavadze', 'Shota Rustaveli',  'Nikoloz Baratashvili'],
       correctAnswer: 'Shota Rustaveli',
     },
     {
@@ -20,12 +21,12 @@ export default function Quiz() {
     },
     {
       question: 'Which Georgian king is often referred to as "George the Brilliant" due to his patronage of the arts and culture?',
-      answers: ['George V of Georgia', 'Giorgi IV (Lasha)', 'George IX of Kartli', 'George II of Imereti'],
+      answers: [ 'Giorgi IV (Lasha)', 'George IX of Kartli', 'George II of Imereti', 'George V of Georgia'],
       correctAnswer: 'George V of Georgia',
     },
     {
       question: 'What was the name of the prominent Georgian queen who ruled in the 12th century and played a significant role in expanding Georgias territory?',
-      answers: ['Queen Tamar', 'Queen Rusudan', ' Queen Ketevan', 'Queen Marta of Margveti'],
+      answers: [ 'Queen Rusudan', 'Queen Tamar',' Queen Ketevan', 'Queen Marta of Margveti'],
       correctAnswer: 'Queen Tamar',
     },
     
@@ -34,8 +35,14 @@ export default function Quiz() {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const questionData = quizData[questionIndex];
+  const [count, setCount] = useState(0)
+  const [showFinish, setShowFinish] = useState(false)
+  const showFinishButton = count >= 5;
+  
+
 
   const handleAnswerClick = (selectedAnswer) => {
+    setCount(count + 1)
     // Check if the selected answer is correct
     if (selectedAnswer === questionData.correctAnswer) {
       // If the answer is correct, increment the score
@@ -51,13 +58,18 @@ export default function Quiz() {
     }
   };
 
-  const show = () => {
-    alert(`Quiz finished. Your score: ${score}/${quizData.length}`);
-  }
+  const handleFinishClick = () => {
+    setShowFinish(true)
+  };
+
+  // <Finished score={score} totalQuestions={quizData.length} />
 
   return (
     <div className="quiz">
-      <div className="question">
+
+      {showFinish ? ( <Finished score={score} totalQuestions={quizData.length} />
+      ) : ( <div>
+         <div className="question">
         <div className="question-header">{questionData.question}</div>
         <div className="question-list">
           {questionData.answers.map((answer, index) => (
@@ -72,7 +84,14 @@ export default function Quiz() {
         </div>
       </div>
 
- <button onClick={show} className="finish">Finish</button>
+      {showFinishButton && (
+        <button onClick={handleFinishClick} className="finish">
+          Finish
+        </button>
+      )}
+      </div>)
+    }
+ 
     </div>
   );
 }
