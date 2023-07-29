@@ -1,2 +1,0 @@
-# Historical-Quiz
-Historical quiz
