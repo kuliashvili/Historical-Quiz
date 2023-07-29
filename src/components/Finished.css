@@ -1,0 +1,31 @@
+.Finished {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finished-button {
+    margin-top: 50px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 600;
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #ee1909;
+    border: 1px solid #089246;
+    border-radius: 10px;
+    transition: all .1s;
+}
+
+.finished-button:hover {
+    background: #b11308;
+}
+
+.finished-button:active {
+    background: #f04c40;
+}

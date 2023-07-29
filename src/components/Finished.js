@@ -4,9 +4,9 @@ import "./Finished.css"
 export default function Finished({ score, totalQuestions, restart }) {
     return (
         <div className='Finished'>
-          <h1>Quiz finished. Your score: {score}/{totalQuestions}</h1>
+          <h1 className='finished-header'>Quiz finished. Your score: {score}/{totalQuestions}</h1>
 
-          <button onClick={restart} >Start again</button>
+          <button className='finished-button' onClick={restart} >Start again</button>
         </div>
     )
 }
