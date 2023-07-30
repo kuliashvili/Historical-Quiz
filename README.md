@@ -35,6 +35,6 @@ I want to express my gratitude to the React community and the countless open-sou
 
 **Contact**
 
-You can reach me via email at [giorgi.kuliashvili.1@btu.edu.g](mailto:giorgi.kuliashvili.1@btu.edu.ge) for any questions or feedback related to the Historical Quiz.
+You can reach me via email at [giorgi.kuliashvili.1@btu.edu.ge](mailto:giorgi.kuliashvili.1@btu.edu.ge) for any questions or feedback related to the Historical Quiz.
 
 Thank you for being a part of this historical journey, and I hope you enjoy exploring Georgian history with the Historical Quiz!
