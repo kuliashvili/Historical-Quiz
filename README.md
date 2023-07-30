@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+**Historical Quiz - Georgian History Quiz**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/yulo01/Historical-Quiz/assets/93291077/66d5ad79-593d-482d-916b-8d7ae07b1d31)
 
-## Available Scripts
+Welcome to the Historical Quiz, a web application built with React that tests your knowledge of Georgian history. This quiz is designed to be both educational and entertaining, providing you with a fun way to learn about significant events, cultural heritage, and notable figures from Georgian history.
 
-In the project directory, you can run:
+**Live Demo**
+You can try out the live version of the Historical Quiz by following this link: [Historical Quiz Live Demo](https://yulo01.github.io/Historical-Quiz/)
 
-### `npm start`
+**Features**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Five Engaging Questions:** The quiz consists of five thoughtfully crafted questions that cover various aspects of Georgian history.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Interactive User Interface:** The application is built with React, ensuring a smooth and interactive user experience.
 
-### `npm test`
+3. **Responsive Design:** The Historical Quiz is responsive and optimized to work flawlessly on desktops, tablets, and smartphones.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**How to Play**
 
-### `npm run build`
+1. Access the live demo link: [Historical Quiz Live Demo](https://yulo01.github.io/Historical-Quiz/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Click on the "Start Quiz" button to begin.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Read each question carefully and select your answer from the multiple-choice options.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. After you've answered all five questions, click on the "Submit" button to see your score.
 
-### `npm run eject`
+5. Feel free to retake the quiz to improve your score and deepen your knowledge of Georgian history!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Local Development**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you wish to run the project locally, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/yulo01/Historical-Quiz.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
+   ```
+   cd Historical-Quiz
+   ```
 
-## Learn More
+3. Install the required dependencies with:
+   ```
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your web browser and visit `http://localhost:3000` to see the Historical Quiz in action.
 
-### Code Splitting
+**Contribution**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have any suggestions, bug reports, or improvements you'd like to contribute, feel free to create an issue or submit a pull request. I welcome any collaboration to make this project even better.
 
-### Analyzing the Bundle Size
+**Acknowledgments**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I want to express my gratitude to the React community and the countless open-source contributors who make projects like this possible.
 
-### Making a Progressive Web App
+**Contact**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+You can reach me via email at [your.email@example.com](mailto:your.email@example.com) for any questions or feedback related to the Historical Quiz.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for being a part of this historical journey, and I hope you enjoy exploring Georgian history with the Historical Quiz!
