@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Historical-Quiz/static/css/main.b96238e2.css",
+    "main.css": "/Historical-Quiz/static/css/main.24b9bb97.css",
     "main.js": "/Historical-Quiz/static/js/main.80fd6882.js",
     "static/js/787.0c3f432a.chunk.js": "/Historical-Quiz/static/js/787.0c3f432a.chunk.js",
     "static/media/backgr.png": "/Historical-Quiz/static/media/backgr.7712581baed6bd41abc2.png",
     "index.html": "/Historical-Quiz/index.html",
-    "main.b96238e2.css.map": "/Historical-Quiz/static/css/main.b96238e2.css.map",
+    "main.24b9bb97.css.map": "/Historical-Quiz/static/css/main.24b9bb97.css.map",
     "main.80fd6882.js.map": "/Historical-Quiz/static/js/main.80fd6882.js.map",
     "787.0c3f432a.chunk.js.map": "/Historical-Quiz/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b96238e2.css",
+    "static/css/main.24b9bb97.css",
     "static/js/main.80fd6882.js"
   ]
 }
