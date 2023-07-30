@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Quiz.css";
 import Finished from "./Finished";
 
+import background from "../assets/backgr.png"
+
+
 export default function Quiz() {
   const quizData = [
     {
@@ -17,7 +20,7 @@ export default function Quiz() {
     },
     {
       question:
-        "Which Georgian historical figure is associated with the invention of the Georgian alphabet?",
+        "Which Georgian  is associated with the invention of the Georgian alphabet?",
       answers: [
         "Saint Nino",
         "King Parnavaz",
@@ -28,7 +31,7 @@ export default function Quiz() {
     },
     {
       question:
-        "In which battle did King David IV (the Builder) defeat the Seljuk Turks, securing Georgian independence?",
+        "In which battle did King David IV defeat the Turks, securing Georgian independence?",
       answers: [
         "Battle of Didgori",
         "Battle of Martqopi",
@@ -39,7 +42,7 @@ export default function Quiz() {
     },
     {
       question:
-        'Which Georgian king is often referred to as "George the Brilliant" due to his patronage of the arts and culture?',
+        'Which Georgian king is referred to as "The Brilliant" due to his patronage of the culture?',
       answers: [
         "Giorgi IV (Lasha)",
         "George IX of Kartli",
@@ -50,7 +53,7 @@ export default function Quiz() {
     },
     {
       question:
-        "What was the name of the prominent Georgian queen who ruled in the 12th century and played a significant role in expanding Georgias territory?",
+        "Georgian queen who ruled in the 12th century and played a big role in expanding territorys?",
       answers: [
         "Queen Rusudan",
         "Queen Tamar",
