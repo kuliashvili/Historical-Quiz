@@ -7,13 +7,19 @@
     align-items: center;
 }
 
+.finished-header {
+    margin: 0 30px 0 30px;
+    color: white;
+}
+
 .finished-button {
     margin-top: 50px;
     cursor: pointer;
     margin: 10px;
     font-weight: 600;
-    width: 80%;
-    height: 40px;
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 40px;
     font-size: 16px;
     color: #ffffff;
     background: #ee1909;
