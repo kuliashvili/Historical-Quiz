@@ -8,21 +8,21 @@
 
 **Features**
 
-1. **Five Engaging Questions:** The quiz consists of five thoughtfully crafted questions that cover various aspects of Georgian history.
+ **Five Engaging Questions:** The quiz consists of five thoughtfully crafted questions that cover various aspects of Georgian history.
 
-2. **Interactive User Interface:** The application is built with React, ensuring a smooth and interactive user experience.
+ **Interactive User Interface:** The application is built with React, ensuring a smooth and interactive user experience.
 
-3. **Responsive Design:** The Historical Quiz is responsive and optimized to work flawlessly on desktops, tablets, and smartphones.
+ **Responsive Design:** The Historical Quiz is responsive and optimized to work flawlessly on desktops, tablets, and smartphones.
 
 **How to Play**
 
-1. Access the live demo link: [Historical Quiz Live Demo](https://yulo01.github.io/Historical-Quiz/)
+ Access the live demo link: [Historical Quiz Live Demo](https://yulo01.github.io/Historical-Quiz/)
 
-2. Read each question carefully and select your answer from the multiple-choice options.
+ Read each question carefully and select your answer from the multiple-choice options.
 
-3. After you've answered all five questions, click on the "Finish" button to see your score.
+ After you've answered all five questions, click on the "Finish" button to see your score.
 
-4. Feel free to retake the quiz to improve your score and deepen your knowledge of Georgian history!
+ Feel free to retake the quiz to improve your score and deepen your knowledge of Georgian history!
 
 
 **Contribution**
