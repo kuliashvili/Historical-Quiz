@@ -27,7 +27,7 @@
 
 **Contribution**
 
-If you have any suggestions, bug reports, or improvements you'd like to contribute, feel free to create an issue or submit a pull request. I welcome any collaboration to make this project even better.
+If you have any suggestions, bug reports, or improvements you'd like to contribute, feel free to create an issue, or submit a pull request. I welcome any collaboration to make this project even better.
 
 **Acknowledgments**
 
