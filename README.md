@@ -8,7 +8,7 @@
 
 **Features**
 
-1. **Five Engaging Questions:** The quiz consists of five thoughtfully crafted questions that cover various aspects of Georgian history.
+1. **Five Engaging Questions:** The quiz consists of five thoughtfully crafted questions, that cover various aspects of Georgian history.
 
 2. **Interactive User Interface:** The application is built with React, ensuring a smooth and interactive user experience.
 
