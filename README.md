@@ -2,7 +2,7 @@
 
 ![image](https://github.com/yulo01/Historical-Quiz/assets/93291077/66d5ad79-593d-482d-916b-8d7ae07b1d31)
 
-<h4> Welcome to the Historical Quiz, a web application built with React that tests your knowledge of Georgian history. This quiz, is designed to be both educational and entertaining, providing you with a fun way to learn about significant events, cultural heritage, and notable figures from Georgian history. </h4>
+<h4> Welcome to the Historical Quiz, a web application, built with React that tests your knowledge of Georgian history. This quiz, is designed to be both educational and entertaining, providing you with a fun way to learn about significant events, cultural heritage, and notable figures from Georgian history. </h4>
 
 
 
