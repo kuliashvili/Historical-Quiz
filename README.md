@@ -17,7 +17,6 @@
 
 **How to Play**
 
-1. Access the live demo link: [Historical Quiz Live Demo](https://yulo01.github.io/Historical-Quiz/)
 
 2. Read each question carefully and select your answer from the multiple-choice options.
 
@@ -34,8 +33,6 @@ If you have any suggestions, bug reports, or improvements you'd like to contribu
 
 I want to express my gratitude to the React community and the countless open-source contributors who make projects like this possible.
 
-**Contact**
 
-You can reach me via email at [giorgi.kuliashvili.1@btu.edu.ge](mailto:giorgi.kuliashvili.1@btu.edu.ge) for any questions or feedback related to the Historical Quiz.
 
 Thank you for being a part of this historical journey, and, I hope you enjoy exploring Georgian history with the Historical Quiz! :)
