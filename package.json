@@ -1,6 +1,7 @@
 {
-    "homepage": "https://yulo01.github.io/Historical-Quiz",
+    "homepage": "https://kuliashvili.github.io/Historical-Quiz",
     "name": "test",
+    
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -12,7 +13,7 @@
         "react-dom": "^18.2.0",
         "web-vitals": "^2.1.4"
 
-        
+
     },
     "scripts": {
         "start": "react-scripts start",
