@@ -128,6 +128,7 @@ export default function Quiz() {
             <button onClick={handleFinishClick} className="finish">
               Finish
             </button>
+            
           )}
         </div>
       )}
