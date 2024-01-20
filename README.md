@@ -1,4 +1,4 @@
-<h2>Georgian History Quiz, Live: https://kuliashvili.github.io/Historical-Quiz/</h2>
+<h2>Georgian History Quiz</h2>
 
 ![image](https://github.com/yulo01/Historical-Quiz/assets/93291077/66d5ad79-593d-482d-916b-8d7ae07b1d31)
 
